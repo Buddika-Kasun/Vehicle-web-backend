@@ -25,12 +25,12 @@ namespace reservation_system_be.Services.FeedbackReportService
                  .ThenInclude(cr => cr.Customer)
                  .Select(f => new FeedBackReportDTO
                  {
-                     Id = f.Id,
-                     Type = f.Type,
-                     Content = f.Content,
-                     RatingNo = f.RatingNo,
-                     Feedback_Date = f.Feedback_Date,
-                     Customername = f.Reservation.CustomerReservation.Customer.Name
+                     id = f.Id,
+                     vehicle = f.Type,
+                     content = f.Content,
+                     rating = f.RatingNo,
+                     date = f.Feedback_Date,
+                     customer = f.Reservation.CustomerReservation.Customer.Name
                  })
                  .ToListAsync(); ;
             }
