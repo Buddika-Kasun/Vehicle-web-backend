@@ -28,6 +28,8 @@ using reservation_system_be.Services.EmployeeAuthService;
 using reservation_system_be.Services.AdminVehicleServices;
 using reservation_system_be.Services.VehicleUtilizationReportServices;
 using reservation_system_be.Services.RevenueReportServices;
+using reservation_system_be.Services.CusVsFeedServices;
+using reservation_system_be.Services.CusVsFeedService;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -94,6 +96,7 @@ builder.Services.AddScoped<IVehicleModelService, VehicleModelService>();
 builder.Services.AddScoped<IFeedbackReportService, FeedbackReportService>();
 builder.Services.AddScoped<IVehicleUtilizationReportService, VehicleUtilizationReportService>();
 builder.Services.AddScoped<IRevenueReportService, RevenueReportService>();
+builder.Services.AddScoped<ISalesChartService, SalesChartService>();
 builder.Services.AddScoped<EmployeeAuthService>();
 builder.Services.AddScoped<IAdminReservationService, AdminReservationService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
