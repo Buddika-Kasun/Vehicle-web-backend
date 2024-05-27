@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Home\\Desktop\\New folder\\vehicle-hub-be\\reservation-system-be\\reservation-system-be.csproj": {}
+    "D:\\paka\\Vehicle-web-backend\\reservation-system-be\\reservation-system-be.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Home\\Desktop\\New folder\\vehicle-hub-be\\reservation-system-be\\reservation-system-be.csproj": {
+    "D:\\paka\\Vehicle-web-backend\\reservation-system-be\\reservation-system-be.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Home\\Desktop\\New folder\\vehicle-hub-be\\reservation-system-be\\reservation-system-be.csproj",
+        "projectUniqueName": "D:\\paka\\Vehicle-web-backend\\reservation-system-be\\reservation-system-be.csproj",
         "projectName": "reservation-system-be",
-        "projectPath": "C:\\Users\\Home\\Desktop\\New folder\\vehicle-hub-be\\reservation-system-be\\reservation-system-be.csproj",
+        "projectPath": "D:\\paka\\Vehicle-web-backend\\reservation-system-be\\reservation-system-be.csproj",
         "packagesPath": "C:\\Users\\Home\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Home\\Desktop\\New folder\\vehicle-hub-be\\reservation-system-be\\obj\\",
+        "outputPath": "D:\\paka\\Vehicle-web-backend\\reservation-system-be\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Home\\AppData\\Roaming\\NuGet\\NuGet.Config",

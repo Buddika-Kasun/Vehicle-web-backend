@@ -93,7 +93,6 @@ builder.Services.AddScoped<IFeedbackReportService, FeedbackReportService>();
 builder.Services.AddScoped<EmployeeAuthService>();
 builder.Services.AddScoped<IAdminReservationService, AdminReservationService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
-builder.Services.AddScoped<ICustomerSideServices, CustomerSideServices>();
 builder.Services.AddScoped<IAdminVehicleService, AdminVehicleService>();
 
 builder.Services.AddScoped<IFrontReservationServices, FrontReservationServices>();
