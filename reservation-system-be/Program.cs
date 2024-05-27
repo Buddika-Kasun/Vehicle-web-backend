@@ -26,6 +26,7 @@ using reservation_system_be.Services.AdminReservationServices;
 
 using reservation_system_be.Services.EmployeeAuthService;
 using reservation_system_be.Services.AdminVehicleServices;
+using reservation_system_be.Services.VehicleUtilizationReportServices;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -90,6 +91,7 @@ builder.Services.AddScoped<IVehicleMaintenanceService, VehicleMaintenanceService
 builder.Services.AddScoped<IAdditionalFeaturesService, AdditionalFeaturesService>();
 builder.Services.AddScoped<IVehicleModelService, VehicleModelService>();
 builder.Services.AddScoped<IFeedbackReportService, FeedbackReportService>();
+builder.Services.AddScoped<IVehicleUtilizationReportService, VehicleUtilizationReportService>();
 builder.Services.AddScoped<EmployeeAuthService>();
 builder.Services.AddScoped<IAdminReservationService, AdminReservationService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();
